@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">RegistrationApp</string>
+    <string name="started_title">Welcome!</string>
+
+    <string name="illustration_img">Illustration Image</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title"><font color="#00C9BB"><b>Login</b></font> if you already have an account.</string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_pw">Forgot Password?</string>
+    <string name="login_havent_account">i don\'t have an account<font color="#00C9B8"><b> Register</b></font></string>
+    <string name="register_title">Fill up the form</string>
+    <string name="register_sub_title"><font color="#00C9BB"><b>Register</b></font> to get started.</string>
+
+    <string name="register_firstname">Your first name</string>
+    <string name="register_middlename">Your middle name</string>
+    <string name="register_lastname">Your last name</string>
+
+    <string name="register_gradeLevel">Grade / Year level</string>
+    <string name="register_address">Your full address</string>
+    <string name="register_mobileNumber">Your Mobile Number</string>
+    <string name="register_nationality">Nationality</string>
+    <string name="register_age">Age</string>
+
+
+    <string name="register_Month">Month</string>
+    <string name="register_Day">Day</string>
+    <string name="register_Year">Year</string>
+
+    <string name="register_continue">Continue</string>
+
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">I already have an account <font color="#00C9BB"><b>Login</b></font></string>
+    <string name="home_title">Hello World!</string>
+    <string name="home_sub_title">Welcome to home</string>
+
+
+    <string name="btn_continue">CONTINUE</string>
+
+    <string name="btn_register">REGISTER</string>
+
+    <string-array name="gender_options"><item>Male</item><item>Female</item></string-array>
+
+    <string-array name="course_options"><item>Bachelor of Science in Computer Science</item><item>Bachelor of Science in Information Technology</item></string-array>
+
+    <string-array name="semester_options"><item>0</item><item>1</item><item>2</item></string-array>
+
+    <string name="checkBox_TermsCondition"><font color="#00C9BB"><b>I Accept Terms and Conditions</b></font></string>
+    <string name="tl_TermsCondition">Terms and Condition</string>
+
+    <string name="checkBox_regStatus"><font color="#00C9BB"><b>Currently Registered</b></font></string>
+    <string name="tl_regStatus">Registration Status</string>
+
+
+
+    <string name="tl_course_spinner">Select Course</string>
+
+    <string name="tl_gender_spinner">Gender</string>
+
+    <string name="tl_semester">Semesters</string>
+
+    <string name="register_date_of_birth"><b>Birthday Date</b></string>
+</resources>
