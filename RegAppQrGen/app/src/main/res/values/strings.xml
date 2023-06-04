@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">QRGen</string>
+
+    <string name="regAct_title">Fill up the form</string>
+    <string name="register_sub_title">Register to get started</string>
+    <string name="btn_register">REGISTER</string>
+
+    <string name="register_firstname">Your first name</string>
+    <string name="register_middlename">Your middle name</string>
+    <string name="register_lastname">Your last name</string>
+
+    <string name="register_gradeLevel">Grade / Year level</string>
+    <string name="register_address">Your full address</string>
+    <string name="register_mobileNumber">Your Mobile Number</string>
+    <string name="register_nationality">Nationality</string>
+    <string name="register_email">Email@gmail.com</string>
+    <string name="register_age">Age</string>
+    <string name="register_date_of_birth"><b>Birthday Date</b></string>
+
+    <string name="register_Month">Month</string>
+    <string name="register_Day">Day</string>
+    <string name="register_Year">Year</string>
+
+    <!-- FOR DROPDOWN BOXES -->
+
+    <string name="tl_semester">Semesters</string>
+    <string name="tl_gender_spinner">Gender</string>
+    <string name="tl_course_spinner">Select Course</string>
+    <string name="tl_modeOfPayment">Mode of payment</string>
+    <string name="tl_regStatus">Registration Status</string>
+    <string name="checkBox_regStatus"><font color="#ce0339"><b>Currently Registered</b></font></string>
+    <string name="tl_TermsCondition">Terms and Condition</string>
+    <string name="checkBox_TermsCondition"><font color="#ce0339"><b>I Accept Terms and Conditions</b></font></string>
+</resources>
