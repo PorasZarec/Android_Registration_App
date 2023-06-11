@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">QRGen</string>
 
+    <!-- ============= -->
+    <!-- ACTIVITY MAIN -->
+    <!-- ============= -->
+
+    <string name="started_title">Welcome!</string>
+
+
+    <!-- ===================== -->
+    <!-- ACTIVITY REGISTRATION -->
+    <!-- ===================== -->
+
     <string name="regAct_title">Fill up the form</string>
-    <string name="register_sub_title">Register to get started</string>
+    <string name="register_sub_title"><font color="#ce0339"><b>Register</b></font> to get started</string>
+
     <string name="btn_register">REGISTER</string>
 
     <string name="register_firstname">Your first name</string>
@@ -13,7 +25,7 @@
     <string name="register_address">Your full address</string>
     <string name="register_mobileNumber">Your Mobile Number</string>
     <string name="register_nationality">Nationality</string>
-    <string name="register_email">Email@gmail.com</string>
+    <string name="register_email">Sample@gmail.com</string>
     <string name="register_age">Age</string>
     <string name="register_date_of_birth"><b>Birthday Date</b></string>
 
@@ -31,4 +43,45 @@
     <string name="checkBox_regStatus"><font color="#ce0339"><b>Currently Registered</b></font></string>
     <string name="tl_TermsCondition">Terms and Condition</string>
     <string name="checkBox_TermsCondition"><font color="#ce0339"><b>I Accept Terms and Conditions</b></font></string>
+
+    <!-- FOR SPINNERS-->
+
+    <string-array name="course_options">
+        <item>Computer Science</item>
+        <item>Information Technology</item>
+        <item>Human Resource Management</item>
+        <item>Psychology</item>
+        <item>Education</item>
+        <item>Mass Communication</item>
+    </string-array>
+
+    <string-array name="semester_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="modeOfPayment_options">
+        <item>Semester</item>
+        <item>Full</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- =============== -->
+    <!-- ACTIVITY QRCODE -->
+    <!-- =============== -->
+
+    <string name="btn_continue">CONTINUE</string>
+
+    <!-- =================== -->
+    <!-- REGISTERED ACTIVITY -->
+    <!-- =================== -->
+
+    <string name="registered_title">YOU ARE NOW <font color="#01eeb8"><b>REGISTERED!</b></font></string>
+
 </resources>
