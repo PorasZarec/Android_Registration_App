@@ -20,9 +20,10 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         button = findViewById(R.id.LoginButton);
-
         tvSignUp = findViewById(R.id.tv_SignUp);
 
+
+        // SIGN UP TEXT IS CLICKED ACTIVITY
         tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,11 +33,10 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
+        // REGISTER BUTTON IS CLICKED ACTIVITY
        button.setOnClickListener(view -> {
-           Toast.makeText(getApplicationContext(), "Login Button clicked!", Toast.LENGTH_SHORT).show();
-
-//           Intent intent = new Intent(LoginActivity.this, [set where to go].class);
-//           startActivity(intent);
+           Intent intent = new Intent(LoginActivity.this, OperatorActivity.class);
+           startActivity(intent);
        });
     }
 }
