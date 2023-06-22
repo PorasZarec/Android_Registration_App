@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TrackerApp</string>
+    <string name="tv_title_Main">TRACKER</string>
+
+    <string name="btn_im_operator"><font color="@color/white">I\'am an Operator</font></string>
+    <string name="btn_im_passenger"><font color="@color/white">I\'am an Passenger</font></string>
+
+    <string name="tv_login">Login</string>
+
+    <string name="btn_login">Login</string>
+
+    <string name="started_title">Welcome!</string>
+
+    <string name="tv_no_account"><b>Don\'t have and account?<font color="#02ffb9"><u> Sign up</u></font></b></string>
+
+    <string name="tv_title_signup">Sign Up</string>
+    <string name="btn_Signup">Sign Up</string>
+
+</resources>
