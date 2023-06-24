@@ -2,6 +2,7 @@ package com.example.trackerapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -26,6 +27,7 @@ public class PassengerActivity extends AppCompatActivity {
     Toolbar toolbar;
     FloatingActionButton fab;
     FragmentManager fragmentManager;
+    CardView cardView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +52,7 @@ public class PassengerActivity extends AppCompatActivity {
                 showBottomDialog();
             }
         });
+
     }
 
     // Handles the replacing of fragments
@@ -99,5 +102,15 @@ public class PassengerActivity extends AppCompatActivity {
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.getWindow().getAttributes().windowAnimations = R.style.DialogAnimation;
         dialog.getWindow().setGravity(Gravity.BOTTOM);
+
+        // WHEN CARD VIEW IN BOTTOM SHEET LAYOUT IS CLICKED
+        cardView = dialog.findViewById(R.id.cv_one);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PassengerActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

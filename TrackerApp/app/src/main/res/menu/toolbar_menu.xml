@@ -5,6 +5,7 @@
     <item
         android:id="@+id/ActBar_profile"
         android:title="Profile"
+        android:iconTint="@color/white"
         android:icon="@drawable/ic_account_box"
         app:showAsAction="ifRoom"/>
 

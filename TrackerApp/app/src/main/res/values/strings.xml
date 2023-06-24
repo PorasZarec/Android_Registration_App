@@ -14,14 +14,18 @@
     <string name="tv_no_account"><b>Don\'t have and account?<font color="#02ffb9"><u> Sign up</u></font></b></string>
 
     <string name="tv_title_signup">Sign Up</string>
+    <string name="tv_title_changePass"><i>Change password</i></string>
+
     <string name="btn_Signup">Sign Up</string>
+
+    <string name="change_password_operator_profileActivity"><b><font color="#ff0000"><u><i>Click to change password</i></u></font></b></string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- TODO: Replace this strings in the PASSENGER DRAWER [bottomsheetlayout.xml]-->
-    <string name="route">Route : GULOD</string>
-    <string name="plateNum">Plate # : ABC 123</string>
-    <string name="driverName">Driver : PAJEROMO</string>
+    <string name="route"><b>Route :</b> GULOD</string>
+    <string name="plateNum"><b>Plate  :</b> ABC 123</string>
+    <string name="driverName"><b>Driver :</b> PAJEROMO</string>
 
 </resources>

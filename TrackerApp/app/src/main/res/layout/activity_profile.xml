@@ -115,11 +115,11 @@
                             android:textSize="18sp" />
 
                         <TextView
-                            android:id="@+id/tv_user_change"
+                            android:id="@+id/tv_user_change_password"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Change"
+                            android:text="@string/change_password_operator_profileActivity"
                             android:textAlignment="viewEnd"
                             android:textColor="#5B5B5B"
                             android:textSize="16sp" />
@@ -179,11 +179,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/tv_telephone"
+                            android:id="@+id/tv_route"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Tell :"
+                            android:text="Route :"
                             android:textColor="#182693"
                             android:textSize="18sp" />
 
@@ -192,7 +192,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="1234-5678-9101"
+                            android:text="Gulod - Cabuyao Bayan"
                             android:textAlignment="viewEnd"
                             android:textColor="#5B5B5B"
                             android:textSize="16sp" />
@@ -253,11 +253,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/tv_postalCode"
+                            android:id="@+id/tv_plateNumber"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="PostalCode :"
+                            android:text="Plate number :"
                             android:textColor="#182693"
                             android:textSize="18sp" />
 
@@ -266,7 +266,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="301260150015"
+                            android:text="AOA 4262"
                             android:textAlignment="viewEnd"
                             android:textColor="#5B5B5B"
                             android:textSize="16sp" />
@@ -281,15 +281,17 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_edit_profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@drawable/background_button"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/blue"
         android:text="Edit Profile"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

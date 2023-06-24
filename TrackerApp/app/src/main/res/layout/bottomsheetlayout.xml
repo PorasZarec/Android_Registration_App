@@ -28,7 +28,7 @@
             android:textStyle="bold"
             android:fontFamily="@font/montserrat"
             android:padding="8dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/white"
             android:layout_marginStart="1dp"
             android:layout_marginTop="5dp"
             android:textSize="25sp" />
@@ -49,13 +49,14 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cv_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="5dp"
-            app:cardBackgroundColor="@color/blue"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="20dp"
             app:cardElevation="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -65,12 +66,17 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_white">
 
                 <ImageView
                     android:id="@+id/iv_profile_user"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_for_profiles"
                     android:padding="5dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -81,11 +87,11 @@
                     android:id="@+id/tv_route0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/route"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/iv_profile_user"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,11 +99,10 @@
                     android:id="@+id/tv_plate0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
+                    android:layout_marginStart="25dp"
                     android:text="@string/plateNum"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/tv_driver0"
                     app:layout_constraintStart_toEndOf="@+id/iv_profile_user"
                     app:layout_constraintTop_toBottomOf="@+id/tv_route0" />
@@ -106,17 +111,20 @@
                     android:id="@+id/tv_driver0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginBottom="15dp"
                     android:text="@string/driverName"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/iv_profile_user" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cv_two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -133,12 +141,17 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_white">
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/sample_profile"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_for_profiles"
                     android:padding="5dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -149,39 +162,40 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/route"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:layout_marginStart="15dp"
-                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintStart_toEndOf="@+id/sample_profile"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
                     android:text="@string/plateNum"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toTopOf="@+id/textView3"
-                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintStart_toEndOf="@+id/sample_profile"
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginBottom="15dp"
                     android:text="@string/driverName"
-                    android:layout_marginStart="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView" />
+                    app:layout_constraintStart_toEndOf="@+id/sample_profile" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
