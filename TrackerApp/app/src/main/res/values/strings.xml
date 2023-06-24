@@ -15,7 +15,13 @@
 
     <string name="tv_title_signup">Sign Up</string>
     <string name="btn_Signup">Sign Up</string>
-<!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Replace this strings in the PASSENGER DRAWER [bottomsheetlayout.xml]-->
+    <string name="route">Route : GULOD</string>
+    <string name="plateNum">Plate # : ABC 123</string>
+    <string name="driverName">Driver : PAJEROMO</string>
 
 </resources>

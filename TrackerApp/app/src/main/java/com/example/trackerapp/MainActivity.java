@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         btn_passenger = findViewById(R.id.bt_passenger_main);
 
         // PASSENGER BUTTON IS CLICKED
-        button.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        btn_passenger.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, PassengerActivity.class);
             startActivity(intent);
         });
     }
