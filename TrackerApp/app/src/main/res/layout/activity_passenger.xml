@@ -22,11 +22,11 @@
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar_passenger"
             android:background="@color/blue"
             android:fontFamily="@font/montserrat"
             app:titleTextColor="@color/white"
-            app:title="Passenger"
+            app:title="@string/tb_passenger_text"
             app:titleMarginStart="30dp"
             app:layout_constraintTop_toTopOf="parent"/>
 
@@ -51,6 +51,7 @@
                 android:translationY="0dp"
                 app:maxImageSize="70dp"
                 app:tint="@color/white" />
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout"
                 android:layout_width="match_parent"

@@ -38,10 +38,6 @@ public class PassengerActivity extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         openFragment(new MapFragment()); // set to MapFragment
 
-        // DECLARING THE CUSTOMIZED TOOLBAR [toolbar_menu.xml]
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar); // launching the customized toolbar
-
         // DECLARING THE FLOATING ACTION BUTTON AS 'fab' VARIABLE
         fab = findViewById(R.id.fab);
         
@@ -60,25 +56,6 @@ public class PassengerActivity extends AppCompatActivity {
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.fragment_container, fragment);
         transaction.commit();
-    }
-
-    // Handle toolbar menu item clicks
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.ActBar_profile) {
-            Intent intent = new Intent(this, ProfileActivity.class);
-            startActivity(intent);
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    // METHOD FOR LAUNCHING THE CUSTOMIZED TOP TOOLBAR
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
-        return true;
     }
 
     // METHOD WHEN 'fab' IS CLICKED

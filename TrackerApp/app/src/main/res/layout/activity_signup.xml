@@ -48,36 +48,7 @@
           android:background="@drawable/custom_edit_text"
           android:drawableLeft="@drawable/ic_baseline_person"
           android:drawablePadding="8dp"
-          android:hint="Username"
-          android:padding="8dp"
-          android:textColor="@color/black"
-          android:textColorHighlight="@color/cardview_dark_background"
-          android:layout_marginTop="20dp"/>
-
-      <EditText
-          android:id="@+id/et_phone_number"
-
-          android:layout_width="match_parent"
-          android:layout_height="50dp"
-          android:background="@drawable/custom_edit_text"
-          android:drawableLeft="@drawable/ic_baseline_sim_card"
-          android:drawablePadding="8dp"
-          android:hint="Phone Number"
-          android:padding="8dp"
-          android:inputType="textPassword"
-          android:textColor="@color/black"
-          android:textColorHighlight="@color/cardview_dark_background"
-          android:layout_marginTop="20dp"/>
-
-      <EditText
-          android:id="@+id/et_bus_number"
-
-          android:layout_width="match_parent"
-          android:layout_height="50dp"
-          android:background="@drawable/custom_edit_text"
-          android:drawableLeft="@drawable/ic_baseline_directions_car"
-          android:drawablePadding="8dp"
-          android:hint="Jeep Number"
+          android:hint="@string/hint_email"
           android:padding="8dp"
           android:textColor="@color/black"
           android:textColorHighlight="@color/cardview_dark_background"
@@ -91,7 +62,7 @@
           android:background="@drawable/custom_edit_text"
           android:drawableLeft="@drawable/ic_baseline_lock"
           android:drawablePadding="8dp"
-          android:hint="Confirm Password"
+          android:hint="@string/hint_pass"
           android:padding="8dp"
           android:textColor="@color/black"
           android:textColorHighlight="@color/cardview_dark_background"
@@ -120,6 +91,13 @@
       </LinearLayout>
 
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
   </androidx.cardview.widget.CardView>
 

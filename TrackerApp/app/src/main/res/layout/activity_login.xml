@@ -54,7 +54,7 @@
           android:background="@drawable/custom_edit_text"
           android:drawableLeft="@drawable/ic_baseline_person"
           android:drawablePadding="8dp"
-          android:hint="Username"
+          android:hint="@string/hint_email"
 
           android:padding="8dp"
           android:textColor="@color/black"
@@ -88,7 +88,7 @@
             android:layout_weight="1"
             android:layout_marginHorizontal="20dp"
 
-            android:id="@+id/LoginButton"
+            android:id="@+id/btn_logIn"
             android:text="@string/btn_login"
             android:textSize="18sp"
             android:backgroundTint="@color/blue"

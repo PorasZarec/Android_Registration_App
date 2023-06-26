@@ -28,4 +28,14 @@
     <string name="plateNum"><b>Plate  :</b> ABC 123</string>
     <string name="driverName"><b>Driver :</b> PAJEROMO</string>
 
+
+    <string name="hint_pass">Password <font color="#ff0000"><i>at least 8 characters</i></font></string>
+    <string name="hint_email"><i>Email </i>\@gmail.com</string>
+
+
+
+    <!-- TODO: name of driver -->
+    <string name="tb_operator_text">Hello, Driver</string>
+    <string name="tb_passenger_text">Hello, Passenger</string>
+
 </resources>

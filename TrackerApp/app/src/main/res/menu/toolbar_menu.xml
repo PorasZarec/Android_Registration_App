@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/ActBar_profile"
+        android:id="@+id/tb_operatorProfile"
         android:title="Profile"
         android:iconTint="@color/white"
-        android:icon="@drawable/ic_account_box"
+        android:icon="@drawable/ic_round_account"
         app:showAsAction="ifRoom"/>
 
 </menu>
