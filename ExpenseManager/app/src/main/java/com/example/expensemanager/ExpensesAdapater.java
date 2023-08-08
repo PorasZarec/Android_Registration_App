@@ -69,9 +69,6 @@ public class ExpensesAdapater extends RecyclerView.Adapter<ExpensesAdapater.MyVi
             note = itemView.findViewById(R.id.tv_note);
             category = itemView.findViewById(R.id.tv_category);
             amount = itemView.findViewById(R.id.tv_amount);
-            date = itemView.findViewById(R.id.tv_date);
-
-
         }
     }
 }

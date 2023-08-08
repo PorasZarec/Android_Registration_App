@@ -6,6 +6,4 @@
         android:title="Save"
         android:icon="@drawable/ic_check"
         app:showAsAction="always"/>
-
-
 </menu>

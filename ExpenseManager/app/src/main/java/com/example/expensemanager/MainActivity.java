@@ -31,7 +31,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements OnItemsClick{
 
     ActivityMainBinding binding;
-//    Intent intent;
+    //    Intent intent;
     private long income = 0, expense = 0;
     private ExpensesAdapater expensesAdapater;
     @Override

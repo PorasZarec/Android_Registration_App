@@ -35,7 +35,7 @@ public class AddExpenseActivity extends AppCompatActivity {
         type = getIntent().getStringExtra("type");
         expenseModel = (ExpenseModel) getIntent().getSerializableExtra("model");
 
-        if (type==null) {
+        if (type == null) {
             type = expenseModel.getType();
             binding.amount.setText(String.valueOf(expenseModel.getAmount()));
             binding.category.setText(expenseModel.getCategory());
@@ -52,7 +52,7 @@ public class AddExpenseActivity extends AppCompatActivity {
         binding.incomeRadio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               type = "Income";
+                type = "Income";
             }
         });
         binding.expenseRadio.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +66,7 @@ public class AddExpenseActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
-        if (type != null) {
+        if (expenseModel == null) {
             menuInflater.inflate(R.menu.add_menu,menu);
         }else {
             menuInflater.inflate(R.menu.update_menu,menu);
